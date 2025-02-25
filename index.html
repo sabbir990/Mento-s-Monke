@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title> Doodle Monke </title>
+    <meta name="description" content="Doodle Monke soon.">
+    <meta property="og:image" content="./tag.png">
+    <link rel="stylesheet" href="css/css-style.css">
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8">
+    <link rel="icon" href="./icon.ico">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://cdn.jsdelivr.net/npm/web3/dist/web3.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@walletconnect/web3-provider/dist/umd/index.min.js"></script>
+</head>
+
+<body>
+    <div class="wrapper">
+        <header class="header">
+            <div class="container">
+                <div class="header__row">
+
+                    <div class="header_ape">
+                        <a href="https://www.doodlemonke.com/" target="_blank"><img src="images/ape_head.png" alt="ape head"></a>
+                    </div>
+
+                    <div class="header__logo">
+                        <a href="https://www.doodlemonke.com/" target="_blank"><img src="images/img-logo.png" alt="logo site"></a>
+                    </div>
+
+                    <div class="header__center">
+                        <a href="https://apescan.io/address/DoodleMonke" target="_blank" class="head-etherscan"></a>
+                        <a href="https://opensea.io/collection/DoodleMonke" target="_blank" class="head-opensea"></a>
+                        <a href="https://x.com/DoodleMonke" target="_blank" class="head-twitter"></a>
+                        <a href="https://discord.gg/DoodleMonke" target="_blank" class="head-discord"></a>
+                    </div>
+
+                    <div class="header__right">
+
+                        <!--
+                        <button class="btn-head" id="wl_check"> check whitelist </button>
+                        -->
+                        <button class="btn-head" id="connect_button"> connect wallet </button>
+
+                    </div>
+
+                </div>
+            </div>
+        </header>
+        
+        <div class="main">
+            <div class="container">
+                <div class="main__row">
+                    <div class="main__left">
+
+                        <p class="form-text2"> TOTAL MINTED </p> 
+                        <p class="number" id="tokens_available"> CONNECT </p> 
+                        <p class="form-text" id="phase"> PUBLIC MINT PHASE | MAX 5 PER TX </p> 
+                        <p class="form-text" id="price"> 0.01 APE EACH </p> <br>
+                        <p class="form-text" id="cost"> TOTAL COST: 0.00 APE </p> <br>
+
+                        <div class="form-row">
+                            
+                            <div class="form-row-amount">
+                                <button class="btn-2" id="mintDW" onClick="decrementMintAmount()"> - </button>
+                                    <input type="text" placeholder="amount" class="in-form js-in-number" id="tokens_amount">
+                                <button class="btn-2" id="mintUP" onClick="incrementMintAmount()"> + </button>
+                            </div>
+                            
+
+                            <div class="form-row-mint">
+
+                                <button class="btn-form" id="mint_button"> MINT </button>
+
+                            </div>
+                            
+                        </div><br>
+                        
+                        <div class="form-row-text">
+                            <div class="form-text">                        
+                                <p> Doodle Monke is a 4,444 NFT collection of randomly compiled unique doodle monke's. Destined to last forever, build awesome apes, and govern the Doodle Monke DAO on the Ape Blockchain. </p>
+                                
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <div class="main__right"> <img src="images/sneak.gif"> </div>
+
+                </div>
+            </div>
+        </div>
+
+        <footer class="footer">
+            <div class="container">
+                <div class="footer__row">
+                    <div class="text-center copyright">
+                        <span> © 2025 Doodle Monke. All Rights Reserved.
+                            <a href="https://doodlemonke.com" target="_blank" class="roadmap"> ROADMAP </a> </span>
+                      </div>
+                </div>
+            </div>
+        </footer>
+        
+    </div>
+	<script src="js/dist-web3.min.js"></script>
+    <script src="js/7663-js-sale.js"></script>
+    <script src="js/8305-js-main.js"></script>
+
+</body>
+
+</html>

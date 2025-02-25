@@ -1,0 +1,15 @@
+{
+  "dependencies": {
+    "@walletconnect/client": "^1.8.0",
+    "@web3-react/core": "^8.2.3",
+    "@web3-react/injected-connector": "^6.0.7",
+    "@web3-react/walletconnect-connector": "^6.2.13",
+    "eth-crypto": "^2.3.0",
+    "require": "^2.4.20",
+    "web3": "^1.10.4",
+    "web3-utils": "^1.8.0"
+  },
+  "devDependencies": {
+    "ethers": "^5.6.9"
+  }
+}
